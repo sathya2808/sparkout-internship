@@ -1,0 +1,21 @@
+package primenumber;
+
+public class PN {
+public static void main(String[] args) {
+	int n=20,count,j,i;
+	for (i=1;i<=n;i++) 
+	{
+		count=0;
+		for(j=2;j<=i/2;j++)
+		{
+			if(n%i==0) 
+			{
+				count++;
+				break;
+			}
+		}
+     if(count==0 && n!=1)
+    	 System.out.println(n);
+	}
+}
+}

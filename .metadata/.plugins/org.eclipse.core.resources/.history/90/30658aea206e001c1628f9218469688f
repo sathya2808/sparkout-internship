@@ -1,0 +1,15 @@
+package primenumber;
+
+public class PN {
+public static void main(String[] args) {
+	
+for(int i=2;i<20;i++) {
+	if(i%2==0) {
+		System.out.println("not prime"+i);
+		
+	}
+	else {
+		System.out.println("prime"+i);
+	}
+}
+}}

@@ -1,0 +1,19 @@
+package get10i;
+
+import java.util.Scanner;
+
+public class Uppercase {
+	public static void main(String [] args)  {
+		int i;
+		int array[] = null ;
+		 Scanner in = new Scanner(System.in);  
+	     System.out.print("Enter i value: ");  
+	     i = in.nextInt(); 
+	     for(int inp=0;inp<i;inp++) { 
+		     array[inp] = in.nextInt(); 
+	     }
+	     
+	     }
+	     
+	}
+

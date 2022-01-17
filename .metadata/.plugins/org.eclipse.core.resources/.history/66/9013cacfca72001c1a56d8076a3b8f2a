@@ -1,0 +1,12 @@
+package uppercase;
+
+public class Upper {
+	public static void main(String [] args)  {
+		String data = "10 welcome to lab";
+		String[] part = data.split(" ");
+		int len= data.length();
+		System.out.println(len);
+			
+		}
+	}
+

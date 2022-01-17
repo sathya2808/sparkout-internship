@@ -1,0 +1,20 @@
+package pyramid;
+
+public class loop {
+	public static void main(String[] args) {
+		int n=5;
+		for(int l = 1 ; l <n; l++)
+		{
+			for (int j=n-l;j>=l;j--)
+			{
+				for (int i=1;i<=3;i++) {
+					System.out.println(" ");
+				}
+				System.out.println("*");
+			}
+			System.out.println();
+     	}
+    }
+
+
+}

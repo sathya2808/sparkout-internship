@@ -1,0 +1,8 @@
+package array;
+
+public class Array {
+	public static void main(String[] args) {
+   String s="hello";
+   String s1="HELLO";		   
+   System.out.println(s.contentEquals(s1));
+}}

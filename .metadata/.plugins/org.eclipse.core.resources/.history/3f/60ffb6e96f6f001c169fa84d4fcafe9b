@@ -1,0 +1,7 @@
+package dimond;
+
+public class dimondpattern {
+  public static void main(String[] args) {
+	  
+  }
+}

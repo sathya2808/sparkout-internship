@@ -1,0 +1,19 @@
+package birthdayage;
+import java.util.Scanner;
+
+public class age {
+	 public static void main(String[] args) {
+		 int age;
+		 int a;
+		 String b;
+		 String name="sathya";
+		 Scanner in = new Scanner(System.in);  
+	     System.out.print("Enter the birthyear: ");  
+	     a= in.nextInt();
+	     age = 2022-a;
+	     System.out.println("Happy Birthday" +name);
+	     System.out.println("your Age is:" +age); 
+	     
+	     
+	 }
+}

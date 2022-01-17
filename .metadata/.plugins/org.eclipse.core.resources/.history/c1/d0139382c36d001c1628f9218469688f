@@ -1,0 +1,10 @@
+package ifc;
+
+public class iffcon {
+	int i =1;	
+    public static void main(String[] args) {
+	if (int i==0) {
+	   System.out.println("hello");
+	}
+   }
+}

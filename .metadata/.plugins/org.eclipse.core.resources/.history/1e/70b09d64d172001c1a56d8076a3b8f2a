@@ -1,0 +1,24 @@
+package get10i;
+
+import java.util.Scanner;
+
+public class Uppercase {
+	public static void main(String [] args)  {
+		 int i;
+		 Scanner in = new Scanner(System.in);  
+	     System.out.print("Enter i value: ");  
+	     i = in.nextInt(); 
+	     String[] array =  new String[i]; 
+	     
+	     for(int j=1;j<=i;j++) { 
+	    	 Scanner ik = new Scanner(System.in);
+		     array[j] = ik.nextLine(); }
+	     for(int k=1;k<=i;K++) {
+	    	 System.out.println(array[k].toUpperCase());
+	     }
+	     }
+	     
+	     }
+	     
+	
+
